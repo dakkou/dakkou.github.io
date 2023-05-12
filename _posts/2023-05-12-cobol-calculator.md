@@ -1,6 +1,6 @@
 ---
 title: COBOL Calculator
-date: 2023-05-12 16:00:00
+date: 2023-05-11 16:00:00
 categories: [programming]
 tags: [programming,cobol,blog]
 ---
