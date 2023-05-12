@@ -1,8 +1,8 @@
 ---
 title: Hello World
 date: 2023-05-11 16:00:00
-categories: [generic,blog]
-tags: [blog]
+categories: [blog]
+tags: [generic,blog]
 ---
 
 # Hello World
