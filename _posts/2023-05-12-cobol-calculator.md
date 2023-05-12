@@ -78,7 +78,7 @@ Variables are also defined in an unusual way. They are given a PIC(ture) and are
 
 ### Signing
 ```
-DENTIFICATION DIVISION.
+IDENTIFICATION DIVISION.
 PROGRAM-ID. Signing.
 AUTHOR. dakkou.
 
@@ -219,7 +219,7 @@ The various steps are naturally explained as it goes along for debug purposes th
 
 While the program functions as a (very) basic calculator it is far from impressive. However, I felt comfortable closing the project because these extensions boil down to busywork moreso than actual programming or learning new features of COBOL.
 
-Exponents would be very easy to add. In fact, adding any new simple function should be easy since it's just an extra loop, a new element of SelectFunction, and a subroutine for how to perform that function. For example, modulo could also very simply be added by practically copying division but just an extra line calculating the remainder rather by just multiplying the current quotient (since it is a floored integer) by the divisor and subtracting this from the initial dividend.
+Exponents would be very easy to add. In fact, adding any new simple function should be easy since it's just an extra loop, a new element of SelectFunction, and a subroutine for how to perform that function. For example, modulo could also very simply be added by practically copying division but just an extra line calculating the remainder by just multiplying the current quotient (since it is a floored integer) by the divisor and subtracting this from the initial dividend.
 Parathenses should be a matter of
 
 * checking that all ( are closed
@@ -240,4 +240,4 @@ Adding trigonometric functions would be a further extension which would require 
 
 Which still is mostly recycling code but does introduce a new variable. I suppose it could check specifically for the functions rather than any variable but the use of a variable means that were arctan, sinh etc ever to be introduced that would be simpler since it would not require more restructing.
 
-Again, none of this excites me particularly. The challenge was learning basic COBOL moreso than making a calculator: a calculator was just the given challenge. It took about three days of actual working over the course of maybe a week to get this far which was faster than I anticipated but after learning one programming language learning another is simple, even one which is sixty something years old.
+Again, none of this excites me particularly. The challenge was learning basic COBOL moreso than making a calculator: a calculator was just the given challenge. It took about three days of actual working over the course of maybe a week to get this far which was faster than I anticipated but after learning one programming language learning another is simple, even one which is sixty something years old. I suppose if I ever find myself talking about COBOL to somebody I can return to this and expand upon it as a refresher but really I would rather have a more complicated project.
